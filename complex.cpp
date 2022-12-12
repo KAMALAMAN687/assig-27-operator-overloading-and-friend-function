@@ -43,11 +43,17 @@ bool operator==( Complex e, Complex f)
 {
     if(e.a==f.a&&e.b==f.b)
     {
-       return true;
+        cout<<"True";
+        return true;
+       
     }
     else
-    return false;
-           
+    {
+
+        cout<<"false";
+        return false;
+    
+    }       
 }
 int main()
 {
