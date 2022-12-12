@@ -14,7 +14,7 @@ class Complex
    {
     cout<<"real ="<<a<<"imaginary= "<<b;
    }
-   friend Complex operator+(Complex , Complex );
+   //friend Complex operator+(Complex , Complex );
 };
 Complex operator+(Complex d, Complex e)
 {
